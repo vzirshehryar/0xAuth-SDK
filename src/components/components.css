@@ -1,0 +1,42 @@
+.oxauth_modal_overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.oxauth_modal {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  width: 360px;
+}
+.oxauth_modal_header {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-color: rgb(67 151 67);
+  padding: 20px 20px 0 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.oxauth_modal_main {
+  padding: 20px 20px 20px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+.oxauth_assets_verification {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+
+.PlaidsButton {
+  width: 100px;
+}
